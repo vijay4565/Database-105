@@ -1,0 +1,13 @@
+CREATE TABLE Band(
+
+id INT PRIMARY KEY AUTO_INCREMENT,
+Bandname VARCHAR(200)
+
+);
+
+CREATE TABLE Emp2(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    Employeename VARCHAR(200),
+    Hike INT,
+    Band_id INT REFERENCES Band(id)
+);

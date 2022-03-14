@@ -1,0 +1,1 @@
+DELETE FROM Emp2 WHERE Employeename='Anna';
