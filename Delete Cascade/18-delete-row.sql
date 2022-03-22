@@ -1,0 +1,3 @@
+DELETE FROM Band WHERE id=2;
+
+-- SELECT * FROM Emp2;
