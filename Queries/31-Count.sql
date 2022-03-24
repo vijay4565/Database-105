@@ -1,0 +1,2 @@
+SELECT COUNT(id) FROM emp1 WHERE City NOT IN(SELECT City FROM emp1 WHERE City='Chennai')
+ 
