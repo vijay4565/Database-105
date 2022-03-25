@@ -1,0 +1,6 @@
+SELECT * FROM emp1
+ORDER BY Salary DESC
+LIMIT 3
+OFFSET 1
+
+
